@@ -1,0 +1,23 @@
+{
+  "name": "jennnnn-z-finalproject-client",
+  "version": "1.0.0",
+  "description": "Final Project for 67-328 - Full Stack",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server --baseDir ./src",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CMU-67-328/finalproject-client-jennnnn-z.git"
+  },
+  "author": "chershbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CMU-67-328/finalproject-client-jennnnn-z/issues"
+  },
+  "homepage": "https://github.com/CMU-67-328/finalproject-client-jennnnn-z",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

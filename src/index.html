@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thing To Do</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <!-- CSS only -->
+</head>
+
+<body>
+    <h1>Find a thing to do when you are bored!</h1>
+    <!-- dropdown menu to choose kind of activity -->
+    <!-- <div class="d-flex gap-5 justify-content-center"> -->
+        <div class="dropdown-menu d-block position-static pt-0 mx-0 rounded-3 shadow overflow-hidden w-280px" style="width: 280px;font-size: 14px;">
+            <!-- <form class="p-2 mb-2 bg-light border-bottom">
+            <input type="search" class="form-control" autocomplete="false" placeholder="Type to filter type...">
+            </form> -->
+            <h3 style="opacity: 50%; font-size:20px; margin: .5em;">Type of Activity</h3>
+            <select id="type" style="margin: .5em;">
+                <option default value="none">*Optional*</option>
+                <option value="education">Education</option>
+                <option value="recreational">Recreational</option>
+                <option value="social">Social</option>
+                <option value="diy">DIY</option>
+                <option value="charity">Charity</option>
+                <option value="cooking">Cooking</option>
+                <option value="relaxation">Relaxation</option>
+                <option value="music">Music</option>
+                <option value="busywork">Busywork</option>
+            </select>
+        </div>
+
+    <br>
+    <button id="getactivity">Click here!</button>
+    <br>
+    <div id="activity" style="margin:auto;">
+        
+    </div>
+
+    <hr>
+    <div id="links">
+        <button id="list" href="">List all favorites</button><br>
+    </div><br>
+    <div id="allfaves">
+        <h2>All your favorites</h2>
+        <p>Draft your living will <a href="#">Edit</a> <a href="#">Delete</a><br>
+        Organize your basement <a href="#">Edit</a> <a href="#">Delete</a><br>
+        Learn how to beatbox <a href="#">Edit</a> <a href="#">Delete</a></p>
+    </div>
+</body>
+
+</html>
