@@ -93,24 +93,6 @@ function deleteThing(key){
   })
 }
 
-// function divClicked() {
-//   var divHtml = $(this).text();
-//   var editableText = $("<textarea />");
-//   editableText.val(divHtml);
-//   $(this).replaceWith(editableText);
-//   editableText.focus();
-//   // setup the blur event for this new textarea
-//   editableText.blur(editableTextBlurred);
-// }
-
-// function editableTextBlurred() {
-//   var html = $(this).val();
-//   var viewableText = $("<div>");
-//   viewableText.html(html);
-//   $(this).replaceWith(viewableText);
-//   // setup the click event for this new div
-//   $(viewableText).click(divClicked);
-// }
 
 function editFave(key, activity){
   console.log('editing fave...' + key + ": " + activity);
@@ -124,30 +106,6 @@ function editFave(key, activity){
     data: JSON.stringify(body),
     dataType: 'json',
     contentType: 'application/json',
-    // success: (res) => {
-    //   console.log('Success', res);
-    // }, 
-    // error: () => {
-    //   console.log("sus");
-    //   // alert(JSON.stringify(body));
-    //   // alert('Already Favorited!');
-    // }
   })
 }
 
-// // now create the malle
-// const malle = new Malle({
-//   // this is the function that will be called once user has finished entering text (press Enter or click outside)
-//   // it receives the new value, the original element, the event and the input element
-//   fun: (value, original, event, input) => {
-//     console.log(`New text: ${value}`);
-//     console.log(`Original element:`);
-//     console.log(original);
-//     // add here your code for POSTing the new value
-//     // something along the line of:
-//     return fetch('/ajax', {
-//       method: 'POST',
-//       body: JSON.stringify({ 'name': value, 'id': original.dataset.id }),
-//     });
-//   },
-// }).listen(); // directly start listening after object creation
