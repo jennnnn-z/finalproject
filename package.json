@@ -19,5 +19,9 @@
   "homepage": "https://github.com/CMU-67-328/finalproject-client-jennnnn-z",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@deltablot/malle": "^1.0.1",
+    "jquery-jeditable": "^2.0.19"
   }
 }
