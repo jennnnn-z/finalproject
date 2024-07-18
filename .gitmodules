@@ -1,0 +1,6 @@
+[submodule "finalproject-server-jennnnn-z"]
+	path = finalproject-server-jennnnn-z
+	url = https://github.com/CMU-67-328/finalproject-server-jennnnn-z.git
+[submodule "finalproject-client-jennnnn-z"]
+	path = finalproject-client-jennnnn-z
+	url = https://github.com/CMU-67-328/finalproject-client-jennnnn-z.git
